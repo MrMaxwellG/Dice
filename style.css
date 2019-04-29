@@ -1,0 +1,88 @@
+/* Allgemeine Style-Einstellungen (HTML, Body) */
+html,body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin:0;
+  padding:0;
+  background: #be0a0a;
+  color: #fbff00;
+  font-size:20px;
+  text-align: center;
+}
+
+a {
+  color: #e5ff00;
+  text-decoration: none;
+}
+
+
+/* Startseite */
+.option-button{
+  width: 60vw;
+  margin: 42vh 20vw;
+  padding: 2vw 0;
+  border: 0.75vw solid #31b617;
+  box-sizing: border-box;
+  border-radius: 1.5vw;
+  font-size: 4vw;
+}
+
+.option-button:active{
+  background: #fffb00;
+  color:#bfc215;
+}
+
+
+/* Seiteninhalt */
+#main-content{
+  position: relative;
+  float: left;
+  clear: left;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+
+/* Würfel-Style */
+.dice{
+  display:inline-block;
+  width: 80vw;
+  height: 80vw;
+  margin: 10vw;
+  box-sizing: border-box;
+  border:0;
+  border-radius: 5vw;
+  background: #0d0ab9;
+  color:#eeff02;
+  font-size: 68vw;
+}
+
+
+/* Würfelbutton (unten) */
+#controls{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height:auto;
+  margin: 0;
+  padding: 4vw 0;
+  background: #3c06cf;
+}
+
+.rollButton{
+  float: left;
+  width:45vw;
+  height:15vw;
+  margin: 0 27.5vw;
+  padding-top: 3vw;
+  background: #200ec2;
+  border: 0.75vw solid #be1313;
+  box-sizing: border-box;
+  border-radius: 1.5vw;
+  font-size:9vw;
+  line-height: 9vw;
+}
